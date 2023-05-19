@@ -1,5 +1,1 @@
-vless://63b2fbc0-4427-4b09-821d-9e22c0b02536@snappfood.ir:443?encryption=none&security=tls&sni=snappfood.ir&type=http&host=api.hmdbookdl.top&path=%2F#arvan
-vless://71925fce-7ec0-47b5-f94f-73918b277392@eit.hmdbookdl.top:80?encryption=none&security=none&type=tcp&headerType=none#arvan80
-vless://67f09172-ca1a-4027-914e-6af8c8af38db@srv.mypdfserver.top:2053?encryption=none&security=tls&sni=srv.mypdfserver.top&type=ws&path=%2F#clws
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImNsd3N2bSIsDQogICJhZGQiOiAic3J2Lm15cGRmc2VydmVyLnRvcCIsDQogICJwb3J0IjogIjIwOTYiLA0KICAiaWQiOiAiMjA3ZTk3ZTgtNzA5Zi00ZWRkLWNmNzMtYzE1OTQ5YWQ2MWI1IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiINCn0=
-vless://31995617-4faa-4841-ee73-88edaebd33a9@srv1.mypdfserver.top:8443?encryption=none&security=none&type=tcp&headerType=none#cltcp
+vless://b9b89769-c309-4db9-9c06-0757d6deafe6@srv1.mypdfserver.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.gstatic.com&fp=chrome&pbk=IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM&type=tcp&headerType=none#%7C1Nt5.love%40xray.com
