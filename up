@@ -1,0 +1,71 @@
+{
+    "dns": {
+        "rules": [
+        ],
+        "servers": [
+            {
+                "address": "tls://1.1.1.1",
+                "detour": "ss",
+                "strategy": "ipv4_only",
+                "tag": "dns-remote"
+            }
+        ]
+    },
+    "inbounds": [
+        {
+            "domain_strategy": "",
+            "listen": "::",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "log": {
+        "level": "info"
+    },
+    "outbounds": [
+        {
+            "detour": "shadowtls-out",
+            "method": "chacha20-ietf-poly1305",
+            "password": "f09e58a4f1367ba296d80180afc76e31",
+            "tag": "ss",
+            "type": "shadowsocks",
+            "udp_over_tcp": {
+                "enabled": true,
+                "version": 2
+            }
+        },
+        {
+            "password": "8dc8eac5a2a6df80bcb0db3c7c51acf2",
+            "server": "94.228.165.186",
+            "server_port": 2053,
+            "tag": "shadowtls-out",
+            "tls": {
+                "enabled": true,
+                "server_name": "ieeexplore.ieee.org",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "shadowtls",
+            "version": 3
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "final": "ss",
+        "rules": [
+            {
+                "outbound": "dns-out",
+                "protocol": "dns"
+            }
+        ]
+    }
+}
